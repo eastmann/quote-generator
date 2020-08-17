@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Quote Generator</title>
     <link rel="icon" href="https://www.google.com/s2/u/0/favicons?domain=jacinto.design" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="quote" id="quote-container">
+        <p class="quote__text" id="quote-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, sed!</p>
+        <p class="quote__author" id="quote-author">Buddah</p>
+        <div class="quote__buttons">
+            <button class="quote__button -twitter" id="twitter" title="Tweet this!"></button>
+            <button class="quote__button -new" id="new-quote">New Quote</button>
+        </div>
+    </div>
+
+    <div class="loader"></div>
+
     <script src="script.js"></script>
+
 </body>
 </html>
